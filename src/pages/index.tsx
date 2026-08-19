@@ -1,4 +1,5 @@
 import HeroImage from "@/assets/images/hero-image.png";
+import SplashImage from "@/assets/images/splash.gif";
 import type { GeoLocation } from "@/types/geo";
 import {
 	faAddressCard,
@@ -8,7 +9,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router";
-import SplashImage from '@/assets/images/splash.gif'
 
 const Index = () => {
 	const navigate = useNavigate();
@@ -50,7 +50,11 @@ const Index = () => {
 	if (showSplash) {
 		return (
 			<div className="fixed inset-0 flex items-center justify-center bg-white">
-				<img src={SplashImage} alt="Loading..." className="max-w-full max-h-full" />
+				<img
+					src={SplashImage}
+					alt="Loading..."
+					className="max-w-full max-h-full"
+				/>
 			</div>
 		);
 	}
