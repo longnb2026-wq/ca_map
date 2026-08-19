@@ -6,17 +6,14 @@
 		"noEmit": true,
 		"skipLibCheck": true,
 		"useDefineForClassFields": true,
-
 		"module": "ESNext",
 		"isolatedModules": true,
 		"resolveJsonModule": true,
 		"moduleResolution": "Bundler",
 		"allowImportingTsExtensions": true,
-
 		"strict": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
-
 		"baseUrl": ".",
 		"paths": {
 			"@/*": ["src/*"]

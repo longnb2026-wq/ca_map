@@ -53,7 +53,7 @@ const Index = () => {
 				<img
 					src={SplashImage}
 					alt="Loading..."
-					className="max-w-full max-h-full"
+					className="max-h-full max-w-full"
 				/>
 			</div>
 		);
