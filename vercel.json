@@ -1,5 +1,5 @@
 {
-	"framework": "react",
+	"framework": "vite",
 	"functions": {
 		"api/*": {
 			"runtime": "nodejs20.x"
