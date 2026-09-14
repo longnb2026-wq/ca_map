@@ -60,6 +60,7 @@
 				"protocol": "https",
 				"hostname": "**"
 			}
-		]
+		],
+		"sizes": []
 	}
 }
