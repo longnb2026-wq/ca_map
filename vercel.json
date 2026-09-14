@@ -50,8 +50,7 @@
 		{
 			"source": "/(.*)",
 			"destination": "/index.html",
-			"statusCode": 200,
-			"force": true
+			"statusCode": 200
 		}
 	],
 	"images": {
