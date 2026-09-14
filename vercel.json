@@ -1,10 +1,5 @@
 {
 	"framework": "vite",
-	"functions": {
-		"api/*": {
-			"runtime": "nodejs@20"
-		}
-	},
 	"headers": [
 		{
 			"source": "/(.*)",
